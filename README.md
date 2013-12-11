@@ -84,11 +84,19 @@ sinatraでwebアプリをつくる
 ## <a name="chap5"> アプリケーションサンプル4 ##
 
 ### プログラム作成 ###
-
+    sample4
+    ├── app.rb
+    └── views
+        ├── index.erb
+        └── user
+            ├── help.erb
+            └── profile.erb
+        
 + [app.rb](sample4/app.rb)
 + [index.erb](sample4/views/index.erb)
-+ [profile.erb](sample4/views/profile.html.erb)
-+ [help.erb](sample4/views/help.html.erb)
++ [profile.erb](sample4/views/profile.erb)
++ [help.erb](sample4/views/help.erb)
+
 
 ### プログラム実行 ###
 
@@ -113,6 +121,14 @@ sinatraでwebアプリをつくる
         ├── example.erb
         ├── layout.erb
         └── not_found.erb
+
++ [config.ru](sample5/config.ru)
++ [application_controller.rb](sample5/controllers/application_controller.rb)
++ [example_controller.rb](sample5/controllers/example_controller.rb)
++ [application_helper.erb](sample5/helpers/application_helper.erb)
++ [example.erb](sample5/views/example.erb)
++ [layout.erb](sample5/views/layout.erb)
++ [not_found.erb](sample5/views/not_found.erb)
 
 ### プログラム実行 ###
 
