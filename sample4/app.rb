@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'sinatra/reloader'
 
 before do
   @profile_link = :'/user/profile'

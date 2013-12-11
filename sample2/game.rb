@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'sinatra/reloader'
 
 # before we process a route, we'll set the response as
 # plain text and set up an array of viable moves that

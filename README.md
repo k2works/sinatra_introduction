@@ -24,6 +24,8 @@ sinatraでwebアプリをつくる
     $ rvm use ruby-2.0.0-p247
     $ rvm gemset create sinatra
     $ rvm use ruby-2.0.0-p247@sinatra
+    $ gem install bundler
+    $ bundle init
     $ bundle
 
 ## アプリケーションサンプル1 ##
