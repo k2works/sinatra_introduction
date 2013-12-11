@@ -37,7 +37,7 @@ sinatraでwebアプリをつくる
 
 ### プログラム作成 ###
 
-+ [server.rb](sample1/server.rb)
++ [server.rb](sinatra_introduction/sample1/server.rb)
 
         require 'sinatra'
     
@@ -57,7 +57,7 @@ sinatraでwebアプリをつくる
 
 ### プログラム作成 ###
 
-+ [game.rb](sampl2/game.rb)
++ [game.rb](sinatra_introduction/sample2/game.rb)
 
 ### プログラム実行 ###
 
@@ -71,7 +71,7 @@ sinatraでwebアプリをつくる
 
 ### プログラム作成 ###
 
-+ [inline.rb](sampl3/inline.rb)
++ [inline.rb](sinatra_introduction/sample3/inline.rb)
 
 ### プログラム実行 ###
 
@@ -85,10 +85,10 @@ sinatraでwebアプリをつくる
 
 ### プログラム作成 ###
 
-+ [app.rb](sample4/app.rb)
-+ [index.erb](sample4/views/index.erb)
-+ [profile.erb](sample4/views/profile.html.erb)
-+ [help.erb](sample4/views/help.html.erb)
++ [app.rb](sinatra_introduction/sample4/app.rb)
++ [index.erb](sinatra_introduction/sample4/views/index.erb)
++ [profile.erb](sinatra_introduction/sample4/views/profile.html.erb)
++ [help.erb](sinatra_introduction/sample4/views/help.html.erb)
 
 ### プログラム実行 ###
 
